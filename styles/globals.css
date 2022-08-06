@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,
+html {
+     font-family: sans-serif;
+     color: #354358;
+     scrollbar-color: #87ceeb #ff5621;
+}
+
+::-webkit-scrollbar {
+     width: 8px;
+     border-radius: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: linear-gradient(to right top, #00f260, #0575e6);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: linear-gradient(to right top, #00f260, #0575e6);
+}
