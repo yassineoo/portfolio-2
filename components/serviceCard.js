@@ -9,7 +9,7 @@ export default function ServiceCard({service}) {
         <Icon className='w-12 h-12 text-green'/>
         <div>
             <h4 className='font-bold'>{title}</h4>
-            <p className="text-gray-700 dark:text-gray-100 text-meduim" dangerouslySetInnerHTML={creatMarkUp()} />
+            <p className="text-gray-700 dark:text-gray-100 text-sm " dangerouslySetInnerHTML={creatMarkUp()} />
         </div>
     </div>
   )

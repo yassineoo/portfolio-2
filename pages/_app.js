@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps ,router }) {
           <Navbar />
           {/* //!about */}
           <AnimatePresence>
-           <Component {...pageProps} key={router.route} />
+          <Component {...pageProps} key={router.route} />
           </AnimatePresence>
         </div>
       </div>

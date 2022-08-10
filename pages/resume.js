@@ -23,9 +23,9 @@ export default function Resume() {
          <div className=''>
           <h5 className='font-bold my-3 text-2xl'>Experience</h5>
             <div>
-            <h3 className='font-bold my-2 text-xl'>Copmuter Sience Engeniring</h3>
-            <h3>ESI-ALgeries 2021-now</h3>
-            <h3>ESI-Sba 2019-2021</h3>
+            <h3 className='font-bold my-2 text-xl'>Freenlecer </h3>
+            <h3>UPwork 2022-now</h3>
+            
             </div>
          </div>
       </motion.div>

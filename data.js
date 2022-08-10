@@ -11,7 +11,7 @@ export const services = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>Next.js</b> ",
   },
   {
     Icon: FaServer,
@@ -23,7 +23,7 @@ export const services = [
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using <b>Expressjs</b>  & <b>Node API</b> ",
   },
   {
     Icon: MdDeveloperMode,
@@ -36,12 +36,7 @@ export const services = [
     about:
       "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-  },
+
 ];
 
 export const languages = [
@@ -67,12 +62,22 @@ export const languages = [
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Mongo and MySQL",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
+    name: "ReactNative ",
+    level: "55",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "flutter ",
+    level: "55",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "TailWind  ",
     level: "55",
   },
 ];
@@ -80,22 +85,22 @@ export const languages = [
 export const tools= [
   {
     Icon: BsCircleFill,
-    name: "Figma",
+    name: "git",
     level: "85",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
+    name: "canva",
     level: "45",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "figma",
+    level: "35",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
+    name: "svn",
     level: "45",
   },
 ];
@@ -109,8 +114,8 @@ export const projects = [
     image_path: "/images/idei8086.png",
     deployed_url: "https://idrist11.github.io/8086-Online-IDE/",
     github_url: "https://github.com/yassineoo/vgath8086-fullbackend-in-nodejs-express-mongodb",
-    category: ["node"],
-    key_techs: ["Nodejs", "bootstrap", "django"],
+    category: ["Node","Mongo"],
+    key_techs: ["Nodejs", "bootstrap", 'express'],
   },
   {
     id:2,
@@ -118,10 +123,10 @@ export const projects = [
     image_path: "/images/instagrame.png",
     deployed_url: "instagrame2-0.vercel.app/",
     github_url: "https://github.com/yassineoo/Instagrame-2.0",
-    category: ["react"],
+    category: ["Nextjs"],
     description:
    ' Typical Social Media App where one can post,like ,comment etc ' ,
-     key_techs: ["React", "firebase", "Framer Motion"],
+     key_techs: ["Nextjs", "firebase", "tailwindcss"],
   },
 
   {
@@ -130,17 +135,11 @@ export const projects = [
     image_path: "/images/hulu-2.png",
     deployed_url: "hulumoviesseconde.vercel.app/",
     github_url: "https://github.com/yassineoo/hulu-movies",
-    category: ["node", "mongo", "react"],
+    category: ["Nextjs"],
     description:
       "muvies website shows the lateste movies in cinima using dbm Api",
     key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "Nextjs", "tailwindcss"
     ],
   },
 
@@ -150,10 +149,10 @@ export const projects = [
     image_path: "/images/google-1.png",
     deployed_url: "google-search-seven.vercel.app/",
     github_url: "https://github.com/yassineoo/google-search-Engine",
-    category: ["node", "react"],
+    category: ["Nextjs", "react"],
     description:
       "google search engine clone using google api ",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+    key_techs: ["Nextjs", "tailwindcss"],
   },
 
   {
@@ -162,10 +161,10 @@ export const projects = [
     image_path: "/images/rehlaty.png",
     deployed_url: "dztraveling.herokuapp.com/places",
     github_url: "https://github.com/yassineoo/Admin-RehLaty-Web-app",
-    category: ["django", "react"],
+    category: [ "Express","Node" , "Mongo"],
     description:
       "admin web site for e-tourisme in algeria",
-    key_techs: ["React", "Django", "Django REST API"],
+    key_techs: ["Node", "Express", "REST API" ,"Bootstrap" ,],
   },
 
   {
@@ -175,30 +174,26 @@ export const projects = [
     image_path: "/images/hackadon.png",
     deployed_url: "https://hackadon.herokuapp.com/",
     github_url: "https://github.com/yassineoo/Hckadon-esms2",
-    category: ["express"],
+    category: ["Express","Node" , "Mongo"],
     description:
       "event website for a charity hackathon with Cse clube ",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+    key_techs: ["Node", "Express", "REST API" ,"Bootstrap" ,],
+  
   },
- /* {
+ {
     id:7,
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
+    name: "Portfolio",
+    image_path: "/images/portfolio.png",
+    deployed_url: "https://priceless-spence-cb4844.netlify.app/",
+    github_url: "https://github.com/yassineoo/portfolio",
     category: ["express"],
     description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      'Quik Portfolio coding in 2 days as a chalenge from SOAI club ',
     key_techs: [
       "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
     ],
   },
-  {
+ /* {
     id:8,
     name: "Football App",
     image_path: "/images/football.png",
