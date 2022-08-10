@@ -34,7 +34,7 @@ export default function Resume() {
                   <h2 className="my-3 text-2xl font-bold">language & frameworks </h2>
                     <div className='my-2'>
 
-                    {languages.map(lang => ( <Skill skill={lang} />))}
+                    {languages.map(lang => ( <Skill skill={lang} key={lang.name} />))}
                     </div>
                   </div>
 
