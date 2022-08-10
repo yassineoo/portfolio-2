@@ -27,8 +27,8 @@ export default function Projects() {
       </div>
       <motion.div variants={stragger} initial='initial' animate='animate' className='grid gap-4 my-3 grid-cols-12 relative'>
         {projects.map( proj => (
-          <motion.div variants={fadeUp}  key={proj.name} className='col-span-12 sm:col-span-6 lg:col-span-4 bg-gray-200 dark:bg-dark-200'>
-          <Project  proj = {proj} showData={showData} setShowData={setShowData} />
+          <motion.div variants={fadeUp}  key={proj.id} className='col-span-12 sm:col-span-6 lg:col-span-4 bg-gray-200 dark:bg-dark-200'>
+          <Project  proj = {proj} key={proj.id} showData={showData} setShowData={setShowData} />
           </motion.div>
         ))}
       </motion.div>

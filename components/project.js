@@ -8,8 +8,8 @@ export default function Project({proj , setShowData ,showData}) {
 
     return (
     <div >
-        <img src={proj.image_path} alt='proj-image' 
-        className='cursor-pointer'
+        <Image src={proj.image_path}  alt='proj-image' width={300} height={150} layout='responsive' 
+        className='cursor-pointer' 
         onClick={()=>{setShowData(proj.id)}}
         />
         <p className='my-2 text-center'>{proj.name}</p>
