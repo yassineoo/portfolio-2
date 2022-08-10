@@ -106,18 +106,18 @@ export const projects = [
     name: "IDE Intelx8086",
     description:
       "This app is a emulator + compiler for intel assembly i8086",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    image_path: "/images/idei8086.png",
+    deployed_url: "https://idrist11.github.io/8086-Online-IDE/",
+    github_url: "https://github.com/yassineoo/vgath8086-fullbackend-in-nodejs-express-mongodb",
     category: ["node"],
     key_techs: ["Nodejs", "bootstrap", "django"],
   },
   {
     id:2,
     name: "Instagrame clone",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
+    image_path: "/images/instagrame.png",
+    deployed_url: "instagrame2-0.vercel.app/",
+    github_url: "https://github.com/yassineoo/Instagrame-2.0",
     category: ["react"],
     description:
    ' Typical Social Media App where one can post,like ,comment etc ' ,
@@ -127,12 +127,12 @@ export const projects = [
   {
     id:3,
     name: "hulu movies",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
+    image_path: "/images/hulu-2.png",
+    deployed_url: "hulumoviesseconde.vercel.app/",
+    github_url: "https://github.com/yassineoo/hulu-movies",
     category: ["node", "mongo", "react"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "muvies website shows the lateste movies in cinima using dbm Api",
     key_techs: [
       "React",
       "Redux",
@@ -147,40 +147,40 @@ export const projects = [
   {
     id:4,
     name: "Google search clone",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+    image_path: "/images/google-1.png",
+    deployed_url: "google-search-seven.vercel.app/",
+    github_url: "https://github.com/yassineoo/google-search-Engine",
     category: ["node", "react"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+      "google search engine clone using google api ",
     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
   },
 
   {
     id:5,
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
+    name: "rehlaty admin",
+    image_path: "/images/rehlaty.png",
+    deployed_url: "dztraveling.herokuapp.com/places",
+    github_url: "https://github.com/yassineoo/Admin-RehLaty-Web-app",
     category: ["django", "react"],
     description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
+      "admin web site for e-tourisme in algeria",
     key_techs: ["React", "Django", "Django REST API"],
   },
 
   {
 
     id:6,
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
+    name: "hackadon",
+    image_path: "/images/hackadon.png",
+    deployed_url: "https://hackadon.herokuapp.com/",
+    github_url: "https://github.com/yassineoo/Hckadon-esms2",
     category: ["express"],
     description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
+      "event website for a charity hackathon with Cse clube ",
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
   },
-  {
+ /* {
     id:7,
     name: "YouTube using YouTube ",
     image_path: "/images/youtubeClone.png",
@@ -209,4 +209,5 @@ export const projects = [
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
+  */
 ];
