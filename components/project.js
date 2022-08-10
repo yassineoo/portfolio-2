@@ -37,7 +37,7 @@ export default function Project({proj , setShowData ,showData}) {
                 <motion.h3 variants={fadeUp}>{proj.description}</motion.h3>
                 <motion.div  variants={fadeUp}  className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
                     {
-                        proj.key_techs.map(tech => (<span  className='px-2 py-1 rounded-sm my-1 bg-gray-200 dark:bg-dark-200'>
+                        proj.key_techs.map(tech => (<span key={tech} className='px-2 py-1 rounded-sm my-1 bg-gray-200 dark:bg-dark-200'>
                             {tech}
                         </span>))
                     }
