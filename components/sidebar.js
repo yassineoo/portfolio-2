@@ -6,6 +6,7 @@ import { useTheme } from 'next-themes';
 
 export default function Sidebar (){
     const { theme ,setTheme } =useTheme();
+    
 
     const changeTheme =() => {
         setTheme(theme ==='light'?'dark':'light');
@@ -47,7 +48,7 @@ export default function Sidebar (){
                     <button className=' max-h-8 text-center text-white  my-2 py-2   bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full' 
                     onClick={() => {window.open('mailto:jy_attou@esi.sba')}}
                     >Email Me</button >
-                    <button className='max-h-8 text-center text-white  my-2 py-2   bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full' onClick={changeTheme} >Light Ui</button>
+                    <button className='max-h-8 text-center text-white  my-2 py-2   bg-gradient-to-r from-green-400 to-blue-400 w-8/12 rounded-full' onClick={changeTheme} >{theme} Ui</button>
 
                 </div>
 
